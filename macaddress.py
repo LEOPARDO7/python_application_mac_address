@@ -9,7 +9,7 @@ for i in range(0, n):
   b = input()
   value.append(b)
 
-MAC_URL = 'https://api.macaddress.io/v1?apiKey=at_oXN3OWKwhQXAooP0Jwc6UobnrGTCa&output=json&search=%s'
+MAC_URL = 'https://api.macaddress.io/v1?apiKey=API_TOKEN&output=json&search=%s'
 for i in range(0, n):
   try:
     r = requests.get(MAC_URL % value[i])
