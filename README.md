@@ -12,8 +12,9 @@ We are using [https://macaddress.io/](https://macaddress.io/) site for MAC looku
 So go to the site and create an account. After login create an API token. 
 
 After creation it will give you an URL use the url in your code.
+---
 $ https://api.macaddress.io/v1?apiKey=API_TOKEN&output=json&search=%s 
-
+---
 Don't forget to replace the API_TOKEN with the token you just created.
 
 ## How Code Works? 
