@@ -2,7 +2,7 @@
 FROM python:latest
 
 
-#Labels as key value pair
+#Install required module
 RUN pip install requests
 
 
@@ -11,7 +11,7 @@ WORKDIR /home
 
 #to COPY the remote file at working directory in container
 COPY macaddress.py ./
-# Now the structure looks like this '/usr/app/src/test.py'
+# Now the structure looks like this '/home/macaddress.py'
 
 
 #CMD instruction should be used to run the software
